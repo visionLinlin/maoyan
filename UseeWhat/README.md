@@ -1,13 +1,12 @@
 ## Build Setup
-
-##项目种类：阅读小程序
-##项目名称：十点读书
-##开发成员: Cheng
-##开发成员: 林志成
-##开发成员: 梁依林
 ##  QAQ
-
 ``` bash
+项目种类：阅读小程序
+项目名称：十点读书
+开发成员: Cheng
+开发成员: 林志成
+开发成员: 梁依林
+
 # 初始化项目
 vue init mpvue/mpvue-quickstart myproject
 cd myproject
