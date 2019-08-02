@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <button id="btn" onclick="btn1()">显示/隐藏</button>
+    <div>
+        <img id="imgs"
+            src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1564755412681&di=0b2b50b30cb53a177189874dd51ce90f&imgtype=0&src=http%3A%2F%2F08.imgmini.eastday.com%2Fmobile%2F20180521%2F20180521124044_4dd5cc730f946fd8ed360364106d3827_3.jpeg"
+            alt="">
+    </div>
+</body>
+<script>
+    var imgs = document.getElementById("imgs");
+    var btn = document.getElementById('btn');
+    var flag = true;
+    function btn1() {
+        if (flag) {
+            imgs.style.display = "none"
+            console.log(flag);
+            flag = false;
+        } else {
+            imgs.style.display = "block"
+            flag = true;
+        }
+    }
+</script>
+
+</html>
